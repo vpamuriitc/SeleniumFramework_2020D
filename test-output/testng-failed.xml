@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test1(failed)">
+    <parameter name="scenario" value="T01"/>
+    <parameter name="dataFile" value="src\cloud\tests\CoreHR\ManagingEmploymentInformationITC_Test.xlsx"/>
+    <parameter name="sheet" value="TS01"/>
+    <classes>
+      <class name="cloud.tests.CoreHR.ManagingEmploymentInformationITC_Test">
+        <methods>
+          <include name="start"/>
+          <include name="end"/>
+          <include name="executeTest"/>
+        </methods>
+      </class> <!-- cloud.tests.CoreHR.ManagingEmploymentInformationITC_Test -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
